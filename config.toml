@@ -1,0 +1,3 @@
+disabled_plugins = ["restart"]
+[plugins.cri.containerd.runtimes.rvisor]
+    runtime_type = "io.containerd.rvisor.v1"
